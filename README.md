@@ -26,8 +26,8 @@ output.
 
 ## PROGRAM:
 # program for getting the word count using command line arguments.
-# Developed by: Rohiit.A.S
-# Register number:212223100047
+# Developed by:Ashwath M
+# Register number:212223230023
 fname=input("enter the file name")
 num_words=0
 with open(fname,'r') as f:
@@ -35,6 +35,7 @@ for line in f:
 words=line.split()
 num_words+=len(words)
 print('Number of words: ',num_words)
+
 
 ### OUTPUT:
 ![exp5(a)](https://github.com/Rohiit2005/Word-count/assets/138849178/e72d44d6-fdaa-4173-9788-e0f835959d27)
