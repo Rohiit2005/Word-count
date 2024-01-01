@@ -25,9 +25,10 @@ In command prompt, initiate python followed by program name and text file name t
 output. 
 
 ### Program:
+```
 # program for getting the word count using command line arguments.
-# Developed by:Ashwath M
-# Register number:212223230023
+# Developed by:Rohiit.A.S
+# Register number:212223100047
 fname=input("enter the file name")
 num_words=0
 with open(fname,'r') as f:
@@ -35,6 +36,7 @@ with open(fname,'r') as f:
         words=line.split()
         num_words+=len(words)
 print('Number of words: ',num_words)
+```
 
 
 
