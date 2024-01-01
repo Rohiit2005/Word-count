@@ -26,7 +26,7 @@ output.
 
 ## PROGRAM:
 # program for getting the word count using command line arguments.
-# Developed by:Rohiit.A.S
+# Developed by: Rohiit.A.S
 # Register number:212223100047
 fname=input("enter the file name")
 num_words=0
